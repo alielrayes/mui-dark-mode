@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
-import Button from "@mui/material/Button";
+import   { useContext } from "react";
+import { ColorModeContext } from "../../theme";
+import { IconButton, useTheme } from "@mui/material";
+import { DarkModeOutlined, LightModeOutlined } from "@mui/icons-material";
 
-import { ColorModeContext } from "../../pages/theme";
-import { useTheme } from "@mui/material";
+
 
 const Home = () => {
   const colorMode = useContext(ColorModeContext);
