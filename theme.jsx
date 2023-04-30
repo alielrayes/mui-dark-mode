@@ -9,6 +9,9 @@ export const getDesignTokens = (mode) => ({
     ...(mode === "light"
       ? {
           // palette values for light mode
+          text: {
+            primary: "#2B3445",
+          },
           neutral: {
             main: "#64748B",
           },
@@ -25,6 +28,9 @@ export const getDesignTokens = (mode) => ({
 
           favColor: {
             main: grey[800],
+          },
+          text: {
+            primary: "#fff",
           },
         }),
   },
